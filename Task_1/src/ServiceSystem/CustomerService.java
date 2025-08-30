@@ -10,6 +10,6 @@ public class CustomerService {
         CustomerGenerator generator = new CustomerGenerator(servicePoint, numberOfCustomers);
         generator.generateCustomers();
 
-        servicePoint.serve(); // Serve all customers in the queue
+        servicePoint.serve();
     }
 }
